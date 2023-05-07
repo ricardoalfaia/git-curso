@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+  background-image: linear-gradient(-82deg,#f44095 0,#c773fc 99%);
+  height: 400px;
+}
+
+.container {
+  margin-left: 320px;
+  margin-right: 320px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.topbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.topbar ul li {
+  margin-right: 24px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.d
